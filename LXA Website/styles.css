@@ -18,10 +18,25 @@
     opacity: 0.35;
 }*/
 
-#main {
-	position: relative;
-	max-width: 1024px;
+.container{
+    position: relative;
 }
+
+#main {
+	position: absolute;
+    display: inline-block;
+    width: 100%;
+    max-width: 1300px;
+    height: 600px;
+    margin: 1em;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/*.dropdown-position{
+    position: static;
+    display: inline-block;
+}*/
 
 #footer {
 	position: fixed;
@@ -39,12 +54,14 @@
 }
 
 #nav {
+    position: fixed;
     height: 35px;
     font-size: 16px;
     font-family: 'Crimson Text', sans-serif;
     font-weight: bold;
     text-align: center;
     background-color: #ffffff;
+    width: 100%;
     border-radius: 8px;
 }
 
@@ -122,7 +139,7 @@
 }
 	
 .img {
-    margin: 5px;
+    margin: 10px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;

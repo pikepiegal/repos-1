@@ -33,11 +33,6 @@
     margin-right: 160px;
 }
 
-/*.dropdown-position{
-    position: static;
-    display: inline-block;
-}*/
-
 #footer {
 	position: fixed;
 	bottom: 0;
@@ -50,7 +45,6 @@
 	font-family: 'Crimson Text', sans-serif;
 	font-style: italic;
 	color: white;
-
 }
 
 #nav {
@@ -95,7 +89,6 @@
     color: #f90;
     background-color: #fff;
 }
-
 
 .dropbtn {
 	background-color: #333;

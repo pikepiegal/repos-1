@@ -12,6 +12,29 @@ h2 {
     text-align: center;
     font-family: 'Crimson Text', sans-serif;
 }
+#profile {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 1000px;
+    height: 600px;
+}
+
+#profilepic {
+    position: absolute;
+/*    line-height:30px;*/
+    background-color: #eeeeee;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#infosection {
+    position: absolute;
+    margin-left: 200px;
+    float:left;
+    padding:10px; 
+}
 
 #background {
 	position: absolute;
@@ -83,7 +106,6 @@ h2 {
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
-/*    display: inline-table;*/
 }
 
 #nav li {
@@ -117,7 +139,6 @@ h2 {
 
 #minutes{
     position: absolute;
-/*    margin: auto;*/
     z-index: 1;
     top: 50%;
     left: 25%;
